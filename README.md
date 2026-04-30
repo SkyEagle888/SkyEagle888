@@ -1,4 +1,4 @@
-### Henry Fok (Fok Chi Wai)
+### Henry Fok
 **Technical & Project Director** @ [Legato Technologies Limited](https://legado.co)  
 📍 Hong Kong | 🌐 Building CMS, Cloud Infrastructure & AI Tooling
 
