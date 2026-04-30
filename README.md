@@ -1,16 +1,19 @@
-## Hi there 👋
+### Henry Fok (Fok Chi Wai)
+**Technical & Project Director** @ [Legato Technologies Limited](https://legado.co)  
+📍 Hong Kong | 🌐 Building CMS, Cloud Infrastructure & AI Tooling
 
-<!--
-**SkyEagle888/SkyEagle888** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+#### 🔧 Core Competencies
+- **Languages**: Python, TypeScript, Node.js, PHP
+- **Infrastructure**: AWS, Docker, Kubernetes, Terraform
+- **Domains**: Headless CMS, E-commerce, DevOps, Monitoring Systems
 
-Here are some ideas to get you started:
+#### 🚀 Featured Projects
+| Repository | Description | Tech Stack |
+|------------|-------------|------------|
+| [md2pdf](/SkyEagle888/md2pdf) | Markdown-to-PDF CLI with custom templating | Python, WeasyPrint |
+| [nvidia-nim-models-monitor](/SkyEagle888/nvidia-nim-models-monitor) | Real-time monitoring for NVIDIA NIM deployments | Python, FastAPI, Prometheus |
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#### 📫 Connect
+- 💼 [LinkedIn](https://linkedin.com/in/henry-fok-3b717637)
+- 🏢 [Legato Technologies](https://legado.co)
+- ✉️ [Email](mailto:your-email@legado.co)
