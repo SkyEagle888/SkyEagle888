@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Repositories-9-blue?style=flat&logo=git" alt="Repos" />
+  <img src="https://img.shields.io/badge/Repositories-10-blue?style=flat&logo=git" alt="Repos" />
   <img src="https://img.shields.io/badge/Top_Language-Python-3776AB?style=flat&logo=python&logoColor=white" alt="Top Language" />
 </p>
 
