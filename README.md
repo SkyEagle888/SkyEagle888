@@ -53,19 +53,19 @@ Self-hosted log analytics console for Azure Front Door &amp; WAF logs stored in 
 `TypeScript` `React` `FastAPI` `DuckDB` `Azure SDK` `shadcn/ui`
 
 ### 🤖 [coding-agent-monitor](https://github.com/SkyEagle888/coding-agent-monitor)
-GitHub Actions monitor that tracks new releases of AI coding CLI tools (Gemini CLI, Qwen Code, OpenCode, Oh-My-OpenCode) and sends Discord notifications on updates.
+Daily release monitor for AI coding CLIs (Gemini CLI, Qwen Code, OpenCode, Oh-My-OpenCode). Maintains a 5-version history per tool, auto-generates `RELEASES.md`, and powers an interactive Bootstrap dashboard with version cards and a changelog timeline.
 
-`Python` `GitHub Actions` `Discord Webhooks` `LLM APIs`
+`Python` `GitHub Actions` `Discord Webhooks` `Bootstrap 5`
 
 ### 📡 [openrouter-free-models-monitor](https://github.com/SkyEagle888/openrouter-free-models-monitor)
-Real-time monitoring and availability tracking dashboard for OpenRouter free-tier models. Tracks model status changes and provides visibility into the free model landscape.
+Tracks add/remove/update changes in OpenRouter's free models (`:free` tier) every 6 hours. Silently persists state on no-change runs; publishes a static dashboard with the current model list, change history, and a categorized provider view.
 
-`Python` `Monitoring` `OpenRouter API`
+`Python` `GitHub Actions` `Discord Webhooks` `Cloudflare Pages`
 
 ### 🖥 [nvidia-nim-models-monitor](https://github.com/SkyEagle888/nvidia-nim-models-monitor)
-Real-time monitoring dashboard for NVIDIA NIM model deployments, with Prometheus-compatible metrics and FastAPI backend.
+Daily GitHub Actions monitor that tracks changes in NVIDIA Integrate API model availability. Detects added/removed models, sends Discord alerts only on change days, and publishes an interactive dashboard with search, provider filters, and a change-history timeline.
 
-`Python` `FastAPI` `Prometheus`
+`Python` `GitHub Actions` `Discord Webhooks` `GitHub Pages`
 
 ### 🛡 [hacker-news-monitor](https://github.com/SkyEagle888/hacker-news-monitor)
 Automated cybersecurity intelligence monitor that tracks The Hacker News RSS feed for predefined threat keywords (vulnerabilities, exploits, vendor advisories) and forwards matched alerts to Discord via GitHub Actions.
@@ -73,9 +73,9 @@ Automated cybersecurity intelligence monitor that tracks The Hacker News RSS fee
 `Python` `feedparser` `httpx` `GitHub Actions`
 
 ### 🏨 [chinalink-hotel-monitor](https://github.com/SkyEagle888/chinalink-hotel-monitor)
-Daily monitor for Trans-Island Chinalink hotel packages (stay + bus + buffet). Scrapes listings, filters with OpenRouter LLM summarization, and posts curated deals to Discord.
+Daily monitor for Trans-Island Chinalink hotel packages (stay + bus + buffet/breakfast) across Shenzhen, Guangzhou, Zhongshan, and Zhuhai. Programmatic region filtering with SHA-256 change detection, parallel detail-page scraping, and structured Traditional Chinese Discord summaries — fully LLM-free since v1.3.
 
-`Python` `OpenRouter` `Discord Webhooks` `GitHub Actions`
+`Python` `GitHub Actions` `Discord Webhooks` `BeautifulSoup`
 
 ### 📄 [Repo-To-Markdown-For-LLM](https://github.com/SkyEagle888/Repo-To-Markdown-For-LLM)
 Python CLI tool that consolidates an entire project codebase into a single Markdown file, optimized for uploading to LLM chatbots for context-rich conversations.
@@ -136,4 +136,4 @@ Markdown-to-PDF CLI with custom templating and document generation. Produces tex
 
 - 💼 [LinkedIn](https://linkedin.com/in/henry-fok-3b717637)
 - 🏢 [Legato Technologies](https://legado.co)
-- ✉️ [Email](mailto:your-email@legado.co)
+- ✉️ [Email](mailto:henry@legato.co)
